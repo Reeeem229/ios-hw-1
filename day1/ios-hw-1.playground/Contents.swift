@@ -55,7 +55,7 @@ var email2 = "shihana090 @gmail .com "
 var phoneNumber = 765445679
 var age2  = 16
 var country2 = "kuwait"
-var  area2 = "mishrif "
+var  area2 = "kuwait"
 var Password2 = "877"
 var iskuwaiti = false
 
@@ -71,7 +71,7 @@ var email3 = "reem090@gmail.com"
 var phoneNumber3 =  93436733
 var age3 = 17
 var country3 = "kuwait"
-var area3 = " ahmadi "
+var area3 = "kuwait"
 var Password3 = "775"
 var iskuwait = false
 
@@ -92,14 +92,22 @@ var iskuwait = false
  
 age1 == 16 && age2 == 16 && age3 == 17
 age1 == 16 && age2 != 16 &&
-area1 == "kuwait" && area2 == "mishrif" && area3 == "ahmadi"
+area1 == "kuwait" && area2 == "kuwait" && area3 == "kuwait"
+area1 != "kuwait" && area2 != "kuwait" && area3 != "kuwait"
  age1 != 17 && age2 != 17 && age3 != 17
 age1 == 17 && age2 == 17 && age3 == 17
-age1 < 18 && age2 < 18 && age3 < 18
  age1 > 18 && age2 > 18 && age3 > 18
+age1 < 18 && age2 < 18 && age3 < 18
+firstName1 == firstName2
+firstName1 != firstName2
 
+lastName1 == lastName2
+lastName1 != lastName2
+
+email1 == email2
+email1 != email2
  
- 
+
  
  
  
